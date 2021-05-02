@@ -60,9 +60,14 @@
                 </button>
             </div>
         </div>
-        <h1 class="mp">Formulario de Registro</h1>
+        
         <div class="container">
-            <div class="row">
+            <div class="row d-flex justify-content-center">
+                <div class="form-group col-md-4">
+                    <h1>Formulario de Registro</h1>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
                 <div class="form-group col-md-4">
                     <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Escriba su Nombre">
                     <small class="form-text text-muted">Escriba su nombre segun documento de indetificacion</small>
@@ -71,23 +76,31 @@
                     <input type="text" class="form-control" id="Apellido" placeholder="Escriba su Apellido">
                 </div> 
             </div> 
-            <div class="row">
+            <div class="row d-flex justify-content-center">
                 <div class="form-gruop col-md-8">
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Escriba su Correo Electronico">
                 </div>
             </div> 
-            <div class="row">
+            <div class="row d-flex justify-content-center">
                 <div class="form-guop col-md-4">
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                    <select class="form-control" id="ciudad">
+                        <option>Medellin</option>
+                        <option>Pereira</option>
+                        <option>Rioacha</option>
+                        <option>Bogota</option>
+                        <option>Bucaramanga</option>
+                        <option>Pasto</option>
+                        <option>Monteria</option>
+                    </select>
                 </div>
                 <div class="form-guop col-md-4">
-                    <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="password">
+                    <input type="password" class="form-control" id="password" placeholder="password">
+                    <small class="form-text text-muted">Recuerde que la Contraseña debe ser minimo 8 caracteres</small>
                 </div>
             </div>
-            
-                <div class="d-grid gap-2 col-6 mx-auto">
-                    <button class="btn btn-primary" type="button">Button</button>
-                  </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-primary" type="button">Button</button>
+            </div>
         </div>
     </main>
     <footer class="footer mt-auto py-5 bg-secondary">
