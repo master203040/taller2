@@ -6,19 +6,13 @@ p{
     font-family: cursive;
     font-weight: 100;
 }
-
 .text{
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
 }
-video{
-    width: 300px;
-    height: 250px;
-    
-}
 #parrafo{
-    width: 300px;
+    width: 500px;
     margin-top: 40px;
     font-size: 16px;
     font-family: cursive;

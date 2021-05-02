@@ -7,8 +7,12 @@
 .row > div{
     padding: 15px;
 }
+.img-thumbnail{
+    width: 200px;
+    height: 200px;
+}
 
-
+/*-----codigo del footer-----*/
 .empresa{
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
