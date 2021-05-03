@@ -13,6 +13,10 @@
 }
 
 /*-----codigo del footer-----*/
+#footer{
+    top: 25px;
+    height: 300px;
+}
 .empresa{
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
@@ -31,14 +35,19 @@
     color:white;
     font-size: 14px;
 }
-.empresa a :hover{
-    color: bisque;
-}
-.m{
+
+#infom{
     color:white;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
+}
+#m{
+    color:white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding-right: 55px;
 }
 .marcas{
     width: 100px;
