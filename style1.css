@@ -4,6 +4,11 @@
     padding: 25px;
     
 }
+.imagenes{
+    height: 250px;
+        
+}
+
 .row > div{
     padding: 15px;
 }
