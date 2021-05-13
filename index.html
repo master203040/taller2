@@ -11,32 +11,21 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
     </head>
     <body class="bg-dark text-white">
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dack">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="index.html">Rodando por Colombia</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                    <div class="collapse navbar-collapse"   id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Pagina Principal</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="registro.html">Registrate</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://es.wikiloc.com/rutas/mountain-bike/colombia/antioquia/medellin" target="_blank">Eventos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://gorigogo.com/" target="_blank">Tienda</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </header>
+        <div class="container">
+                
+            <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom ">
+                <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+                </a>
+                <h2>Rodando por Colombia</h2>
+                <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0"> 
+                    <li><a href="index.html" class="nav-link px-2 link-light">Pagina Principal</a></li>
+                    <li><a href="registro.html" class="nav-link px-2 link-light">Registrate</a></li>
+                    <li><a href="https://es.wikiloc.com/rutas/mountain-bike/colombia/antioquia/medellin" class="nav-link px-2 link-light"target="_blank">Eventos</a></li>
+                    <li><a href="//gorigogo.com/" class="nav-link px-2 link-light"target="_blank">Tienda</a></li>
+                </ul>
+            </header> 
+        </div> 
         <main>
             <div class="container p-5">
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -86,15 +75,17 @@
                         <p>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, cum repudiandae eaque rerum maiores harum, id esse exercitationem eius distinctio officia itaque repellendus earum ipsam odio quaerat, aspernatur doloremque omnis rem. Sequi deleniti optio modi perferendis repellendus voluptas dicta cum, iusto eum est nostrum, nulla aliquid reiciendis! Maxime, reiciendis consequuntur.
                         </p>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modal1">
                             Ver Mas..
                         </button>
-                    </div>   
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"    aria-hidden="true">
+                    </div> 
+
+                    <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel"    aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title text-dark" id="exampleModalLabel">Cabo de la Vela</h5>
+                                <div class="modal-header bg-secondary">
+                                    <h5 class="modal-title text-white" id="exampleModalLabel">Cabo de la Vela</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
@@ -128,15 +119,16 @@
                         <p>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, cum repudiandae eaque rerum maiores harum, id esse exercitationem eius distinctio officia itaque repellendus earum ipsam odio quaerat, aspernatur doloremque omnis rem. Sequi deleniti optio modi perferendis repellendus voluptas dicta cum, iusto eum est nostrum, nulla aliquid reiciendis! Maxime, reiciendis consequuntur.
                         </p>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modal2">
                             Ver Mas..
                         </button>
+
                     </div> 
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"    aria-hidden="true">
+                    <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel"    aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title text-dark">Eje Cafetero</h5>
+                                <div class="modal-header bg-secondary">
+                                    <h5 class="modal-title text-white">Eje Cafetero</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
@@ -171,14 +163,16 @@
                         <p>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, cum repudiandae eaque rerum maiores harum, id esse exercitationem eius distinctio officia itaque repellendus earum ipsam odio quaerat, aspernatur doloremque omnis rem. Sequi deleniti optio modi perferendis repellendus voluptas dicta cum, iusto eum est nostrum, nulla aliquid reiciendis! Maxime, reiciendis consequuntur.
                         </p>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modal3">
                             Ver Mas..
                         </button>
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"    aria-hidden="true">
+
+                        <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel"    aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title text-dark">Santuario de las Lajas</h5>
+                                    <div class="modal-header bg-secondary">
+                                        <h5 class="modal-title text-white">Santuario de las Lajas</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
@@ -214,14 +208,16 @@
                         <p>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, cum repudiandae eaque rerum maiores harum, id esse exercitationem eius distinctio officia itaque repellendus earum ipsam odio quaerat, aspernatur doloremque omnis rem. Sequi deleniti optio modi perferendis repellendus voluptas dicta cum, iusto eum est nostrum, nulla aliquid reiciendis! Maxime, reiciendis consequuntur.
                         </p>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modal4">
                             Ver Mas..
                         </button>
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"    aria-hidden="true">
+
+                        <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="exampleModalLabel"    aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title text-dark">Desierto de la Tatacoa</h5>
+                                    <div class="modal-header bg-secondary">
+                                        <h5 class="modal-title text-white">Desierto de la Tatacoa</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
@@ -262,14 +258,16 @@
                         <p>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, cum repudiandae eaque rerum maiores harum, id esse exercitationem eius distinctio officia itaque repellendus earum ipsam odio quaerat, aspernatur doloremque omnis rem. Sequi deleniti optio modi perferendis repellendus voluptas dicta cum, iusto eum est nostrum, nulla aliquid reiciendis! Maxime, reiciendis consequuntur.
                         </p>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modal5">
                             Ver Mas..
                         </button>
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"    aria-hidden="true">
-                            <div class="modal-dialog">
+
+                        <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="exampleModalLabel"  aria-hidden="true">
+                            <div class=" modal-dialog">
                                 <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title text-dark">Desierto de la Tatacoa</h5>
+                                    <div class="modal-header bg-secondary">
+                                        <h5 class="modal-title text-white">Lago Calima</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
