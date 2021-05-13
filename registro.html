@@ -65,43 +65,45 @@
         <div class="container">
             <h1 class="text-center">Formulario de Registro</h1>
             <div class="row d-flex justify-content-center">
-                <div class="form-group col-md-4">
-                  <input type="text" class="form-control" placeholder="Escriba su Nombre" aria-label="First name">
-                  <small class="form-text text-muted"></small>
+                <div class="col-12 col-md-4">
+                    <form class="border border-4 p-3">
+                        <div class="mb-3">
+                            <label class="form-label">Nombre</label>
+                            <input type="Nombre" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Apellido</label>
+                            <input type="Apellido" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Correo Electronico</label>
+                            <input type="email" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Password</label>
+                            <input type="password" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Ciudad</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Seleccione un Opcion</option>
+                                <option value="1">Medellin</option>
+                                <option value="2">Bogota</option>
+                                <option value="3">Barranquilla</option>
+                                <option value="3">Pereira</option>
+                                <option value="3">Bucaramanga</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
                 </div>
-                <div class="form-group col-md-4">
-                  <input type="text" class="form-control" placeholder="Escriba su Apellido" aria-label="Last name">
-                </div>
-                <div class="form-gruop col-md-8">
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Escriba su Correo Electronico">
-                </div>
-            </div>
-            <div class="row d-flex justify-content-center">
-                <div class=" form-gruop col-md-4">
-                    <select id="inputState" class="form-select">
-                      <option selected>Medellin</option>
-                      <option>Bogota</option>
-                      <option>Cali</option>
-                      <option>Pereira</option>
-                      <option>Bucaramanga</option>
-                      <option>Nariño</option>
-                      <option>Manizales</option>
-                    </select>
-                </div>
-                <div class="form-guop col-md-4">
-                    <input type="password" class="form-control" id="password" placeholder="password">
-                    <small class="form-text text-muted">Recuerde que la Contraseña debe ser minimo 8 caracteres</small>
-                </div>
-                <div class="d-grid gap-2 col-5 mx-auto">
-                    <button class="btn btn-primary" type="button">Enviar</button>
-                  </div>
             </div>
         </div>
     </main>
     <footer class="footer mt-auto py-2 bg-secondary" id="footer">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 p-4">
                     <p class="empresa">
                         Desarrollodo por Carlos Alberto Ortega <br>
                         2021.Medellin-Colombia <br>
@@ -114,7 +116,7 @@
                 <div class="col-12 col-md-6">
                     <p class="text-end" id="m">
                         Compra tu Dicicletas,Repuestos y Accesorios de estas Marcas
-                    </p> <br>
+                    </p> 
                     <img src="img/logo pinarello.jpg" class="img-float end patro1 p-2" alt="foto12">
                     <img src="img/logo scott.jpg" class="img-float end patro1" alt="foto13">
                 </div>
